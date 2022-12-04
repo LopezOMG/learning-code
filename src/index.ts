@@ -9,3 +9,5 @@ const calcular = (a: number, b: number, op: Operacion) => {
 
   throw new Error("Operation not implemented")
 }
+
+calcular(2,4,"add")
